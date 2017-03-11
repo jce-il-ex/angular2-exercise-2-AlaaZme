@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { NavMenuComponent, initNav ,getIteams } from './nav-menu/nav-menu.component';
+import { NavMenuComponent,} from './nav-menu/nav-menu.component';
 //import {initNav} from  ;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
 
-  iteams = getIteams();
 
+ title = 'Testing!';
   }
 //NavMenuComponent jyy = new NavMenuComponent ;

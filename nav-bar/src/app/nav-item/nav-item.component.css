@@ -1,0 +1,15 @@
+li{margin-top:8px;float:left;border-radius:10px;
+text-align: center;
+background-color:#6A5ACD;
+width :175px;
+height:45px;
+color:#081B68;
+float:left;
+font-size : 25px;
+transition: 0.2s;
+padding-top:20px;
+font-weight:bold;
+font-style:italic;
+margin-right:2px;}
+li:hover{background-color:maroon;}
+ul{background-color: black}

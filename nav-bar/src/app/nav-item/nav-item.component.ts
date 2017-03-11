@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-nav-item',
@@ -12,13 +12,9 @@ export class NavItemComponent implements OnInit {
 
 
   }
-
+@Input() Item;
   ngOnInit() {
   }
-
-}
-export function iteams(){
- return ['main','contact','about','help'];
 
 }
 

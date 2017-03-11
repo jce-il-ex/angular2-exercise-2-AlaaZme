@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavItemComponent , iteams } from '../nav-item/nav-item.component';
+//import { NavItemComponent ,item } from '../nav-item/nav-item.component';
 @Component({
   selector: 'app-nav-menu',
   templateUrl: './nav-menu.component.html',
@@ -8,17 +8,14 @@ import { NavItemComponent , iteams } from '../nav-item/nav-item.component';
 
 export class NavMenuComponent implements OnInit {
   constructor() { 
+   
   }
-
+ navItem=[{ item:"Main"}, {item:"Messages"},{item:"Notifications"},{ item:"Help"}];
   ngOnInit() {
   }
 
 }
-export function getIteams(){
-return  iteams();
+export function items(){
+return;
 
 }
-export function initNav(){
-  return ["asd","asdsad"];
-}
-
